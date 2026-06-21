@@ -18,7 +18,7 @@ Thanks!
 
 ## Technologies
 - HTML5 (index.html)
-- CSS3 (style.css) — uses the Roboto font in styles
+- CSS3 Basis and Flexbox (style.css) — uses the Roboto font in styles
 - Static assets in the `images/` folder (PNG files)
 
 ## Images & Rights
