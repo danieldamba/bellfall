@@ -14,6 +14,7 @@ The main page (index.html) includes:
 - Call-to-action (CTA) box prompting users to join the adventure.
 - Footer with author credit.
 
+Thanks!
 
 ## Technologies
 - HTML5 (index.html)
