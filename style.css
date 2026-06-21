@@ -4,28 +4,31 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Roboto, sans-serif;
 }
 
 /* header style */
 h1 {
-    font-size: 25px;
+    font-size: 24px;
+    color: #f9faf8
 }
 
 h1, a {
     font-family: Roboto, sans-serif;
-    color: white;
 }
 
 a {
     text-decoration: none;
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 300;
+    color: #e7e5eb;
 }
 
 .header {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 600px;
     align-items: center;
 }
 
@@ -45,28 +48,24 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 80px;
+    padding: 100px 70px;
 }
 
-div.left-section {
-    margin: 30px;
-    width: 500px;
-    height: auto;
-}
 
 .right-section {
     display: flex;
     flex-direction: column;
 }
 
-img#danseo-hero {
+img#country-hero {
     width: 500px;
     height: auto;
 }
 
 .hero-main-text {
-    font-size: 52px;
-    font-weight: bold;
+    font-size: 48px;
+    font-weight: 900;
     font-family: Roboto, sans-serif;
     margin: 0;
 }
@@ -75,18 +74,61 @@ img#danseo-hero {
     font-size: 18px;
     font-family: Roboto, sans-serif;
     width: 400px;
-    margin: 20px 0;
+    margin: 10px 0;
+    color: #e5e7eb
 }
 
 button.hero-button {
-    width: 150px;
-    height: 50px;
-    background-color: #3b82f6;
+    width: 120px;
+    height: auto;
+    padding: 10px;
+    background-color: #3882f6;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     font-size: 18px;
     font-family: Roboto, sans-serif;
     cursor: pointer;
     font-weight: bold;
+    text-align: center;
+}
+
+/* infos section */
+
+.info-section-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-one-main-text {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 30px;
+    color:#1f2937;
+}
+
+.team-up {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 50px;
+}
+
+.team-card {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img.team-pics {
+    width: 200px;
+    height: 200px;
+    border: 3px #3882f6 solid;
+    border-radius: 10%;
+}
+
+p.char-description {
+    text-align: center;
 }
