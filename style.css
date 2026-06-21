@@ -132,3 +132,69 @@ img.team-pics {
 p.char-description {
     text-align: center;
 }
+
+/* quote section */
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 50px 200px;
+}
+
+p.main-quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+p#author-pin {
+    font-size: 18px;
+    font-weight: 900;
+    text-align: end;
+}
+
+/* cta section */
+
+.cta-section {
+    padding: 80px 150px;
+}
+
+.cta-box {
+    background-color: #3882f6;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.cta-text , .cta-button {
+    color:#ffffff;
+}
+
+.cta-text h3, .cta-text p {
+    margin: 0;
+}
+
+.cta-text p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.cta-button {
+    background-color: #3882f6;
+    padding: 10px;
+    border: 2px white solid;
+    border-radius: 20px;
+    width: 100px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
