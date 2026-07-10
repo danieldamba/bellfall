@@ -24,8 +24,12 @@ a {
     color: #e7e5eb;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .header {
-    background-color: #1f2937;
+    background-color: #560bad;
     display: flex;
     justify-content: center;
     gap: 600px;
@@ -42,8 +46,8 @@ a {
 
 /* hero section style */
 
-.hero {
-    background-color: #1f2937;
+.hero, .hero2 {
+    background-color: #00025f;
     color:white;
     display: flex;
     justify-content: center;
@@ -82,7 +86,7 @@ button.hero-button {
     width: 120px;
     height: auto;
     padding: 10px;
-    background-color: #3882f6;
+    background-color: #7209b7;
     color: white;
     border: none;
     border-radius: 8px;
@@ -98,6 +102,7 @@ button.hero-button {
 .info-section-one {
     display: flex;
     flex-direction: column;
+    background-color: #4cc9f0;
 }
 
 .section-one-main-text {
@@ -105,13 +110,13 @@ button.hero-button {
     font-weight: 900;
     text-align: center;
     margin: 30px;
-    color:#1f2937;
+    color:#00025f;
 }
 
 .team-up {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 40px;
     margin: 50px;
 }
 
@@ -125,19 +130,22 @@ button.hero-button {
 img.team-pics {
     width: 200px;
     height: 200px;
-    border: 3px #3882f6 solid;
-    border-radius: 10%;
+    border: 2px #3c1642 solid;
+    border-radius: 30px;
 }
 
 p.char-description {
     text-align: center;
+    color:#3c1642;
+    font-size: 18px;
 }
 
 /* quote section */
 
 .quote-section {
-    background-color: #e5e7eb;
+    background-color: #e2ebff;
     padding: 50px 200px;
+    color: #200046;
 }
 
 p.main-quote {
@@ -156,10 +164,11 @@ p#author-pin {
 
 .cta-section {
     padding: 80px 150px;
+    background-color: #f3f6ff;
 }
 
 .cta-box {
-    background-color: #3882f6;
+    background-color: #7209b7;
     padding: 50px;
     display: flex;
     justify-content: space-between;
@@ -181,7 +190,7 @@ p#author-pin {
 }
 
 .cta-button {
-    background-color: #3882f6;
+    background-color: #7209b7;
     padding: 10px;
     border: 2px white solid;
     border-radius: 20px;
@@ -193,8 +202,83 @@ p#author-pin {
 }
 
 .footer {
-    background-color: #1f2937;
+    background-color: #15012c;
     color: white;
     text-align: center;
     padding: 50px;
+}
+
+/* styles for contacts.html */ 
+
+.hero2 .first{
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.hero2 .second {
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    border: 2px solid #4cc9f0;
+}
+
+.second-section {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 20px 50px;
+    align-items: center;
+}
+
+.second-section span {
+    font-size: 40px;
+    font-weight: 700;
+    color: #15012c;
+}
+
+.link {
+    font-size: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+}
+
+.stack-two {
+    display: flex;
+    gap: 100px;
+}
+.facebook, .insta, .discord {
+    color: #e7e5eb;
+    text-align: center;
+    cursor: pointer;
+}
+
+.insta {
+    background-color: #8d0076;
+}
+
+.discord {
+    background-color: #1f008d;
+}
+
+.facebook {
+    background-color: #0400ec;
+}
+
+.mail {
+    font-size: 40px;
+    color: #ffffff;
+    background-color: #9c0000;
+    text-align: center;
+}
+
+#aboutUs p {
+    text-align: justify;
+    padding: 0 80px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#aboutUs {
+    background-color: #dff8ff;
 }
